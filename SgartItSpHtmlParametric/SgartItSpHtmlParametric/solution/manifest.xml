@@ -1,0 +1,21 @@
+﻿<Solution SolutionId="41680286-ed40-46a9-b216-c4d870c8f39c" 
+          xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <FeatureManifests>
+    <FeatureManifest Location="SgartItHtmlParametric\feature.xml" />
+  </FeatureManifests>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SgartItHtmlParametric\Editor.aspx"/>
+    <TemplateFile Location="Images\SgartItHtmlParametric\SgarSP.png"/>
+  </TemplateFiles>
+  <Assemblies>
+    <Assembly Location="SgartIt.Sp.HtmlParametric.dll" 
+              DeploymentTarget="GlobalAssemblyCache" >
+      <SafeControls>
+        <SafeControl Assembly="SgartIt.SP.HtmlParametric, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f4da00116c38ec5" 
+                     Namespace="SgartIt.Sp" 
+                     TypeName="HtmlParametric" 
+                     Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+</Solution>

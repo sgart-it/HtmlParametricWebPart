@@ -1,0 +1,14 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SgartIt.Sp.HtmlParametric, SgartIt.Sp.HtmlParametric, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f4da00116c38ec5" />
+      <importErrorMessage>Cannot import Sgart.it HtmlParametric Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Sgart.it HtmlParametric Web Part</property>
+        <property name="Description" type="string"></property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

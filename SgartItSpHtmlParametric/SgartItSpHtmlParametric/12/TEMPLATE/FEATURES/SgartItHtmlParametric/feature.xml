@@ -1,0 +1,13 @@
+﻿<Feature  Id="8d010a5f-a1c2-4580-b092-f5d48b3ce351"
+          Title="Sgart.it HtmlParametric" 
+          Description="Lets you insert html using variables with values ​​from the context of SharePoint" 
+          ImageUrl="SgartItHtmlParametric/SgarSP.png"
+          Version="1.0.0.0" 
+          Scope="Site" 
+          Hidden="FALSE" 
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml" />
+    <ElementFile Location="SgartItSpHtmlParametric.webpart" />
+  </ElementManifests>
+</Feature>
