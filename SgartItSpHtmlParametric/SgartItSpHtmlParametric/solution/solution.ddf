@@ -1,0 +1,23 @@
+;
+.OPTION EXPLICIT     ; Generate errors 
+.Set CabinetNameTemplate=SgartIt.Sp.HtmlParametric.wsp    
+;.set DiskDirectoryTemplate=CDROM ; All cabinets go in a single directory
+.Set CompressionType=MSZIP;** All files are compressed in cabinet files
+.Set UniqueFiles="On"
+.Set Cabinet=on
+.Set DiskDirectory1=
+
+.Set DestinationDir=
+solution\manifest.xml
+DLL\SgartIt.Sp.HtmlParametric.dll
+
+.Set DestinationDir=SgartItHtmlParametric
+12\TEMPLATE\FEATURES\SgartItHtmlParametric\feature.xml
+12\TEMPLATE\FEATURES\SgartItHtmlParametric\elements.xml
+12\TEMPLATE\FEATURES\SgartItHtmlParametric\SgartItSpHtmlParametric.webpart
+
+.Set DestinationDir=LAYOUTS\SgartItHtmlParametric
+12\TEMPLATE\LAYOUTS\SgartItHtmlParametric\Editor.aspx
+
+.Set DestinationDir=IMAGES\SgartItHtmlParametric
+12\TEMPLATE\IMAGES\SgartItHtmlParametric\SgarSP.png
